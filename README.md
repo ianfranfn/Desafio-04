@@ -69,6 +69,12 @@ Y otros más usados en menor cantidad o una sola vez.
 Algunos errores fueron en consecuencia de agregar alguna función o elemento de más, asi como quitando alguna otra por accidente.
 Los errores más comúnes a lo largo del desafío fueron los usos incorrectos de "px" y "%" al momento de colocar los width o los margin. 
 
+## Comprobación Post
+
+![alt text](image.png)
+
 ## Datos del alumno
 
-
+Nombre: Ian Franco Fariña Núñez
+Link Netlify: https://desafio-04-ian.netlify.app/
+Link GitHub: https://github.com/ianfranfn/Desafio-04.git
