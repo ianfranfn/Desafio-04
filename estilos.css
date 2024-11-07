@@ -76,6 +76,7 @@ fieldset {
     border: 1px solid #83b6a6;
     border-radius: 3px;
     display: block;
+    text-align: end;
 }
 
 .mail {
@@ -88,13 +89,24 @@ fieldset {
     border: 1px solid #83b6a6;
     border-radius: 3px;
     display: block;
+    text-align: end;
 }
 
 .desc {
     height: 100px;
 }
 
-.sexo
+.sexo {
+    border: none;
+}
+
+.actividades {
+    text-align: left;
+}
+
+#p1 {
+    font-size: small;
+}
 
 input:focus{  
     background-color: #4d6d63;
@@ -118,4 +130,20 @@ input:focus{
 
 .checkbox {
     color: white;
-  }
+    text-align: left;
+}
+
+#campo {
+    color: white;
+    text-align: start;
+    font-weight: bold;
+}
+
+.boton {
+    height: 35px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #2b3d37;
+    color: #9bc0ba;
+}

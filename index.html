@@ -89,10 +89,10 @@
 
         <div class="separ"></div>
 
-        <fieldset>
+        <fieldset class="actividades">
             <legend class="datos">🚴🏼‍♂️ Actividades 🤸🏼‍♀️</legend>
 
-            <p>Por favor, indicá cuáles actividades te interesan.</p>
+            <p id="p1">Por favor, indicá cuáles actividades te interesan.</p>
 
             <p>Sede Palermo:</p>
 
@@ -128,19 +128,19 @@
           </fieldset>
 
           <div>
-            <input type="checkbox" id="condiciones" name="condiciones" required>
+            <input class="checkbox" type="checkbox" id="condiciones" name="condiciones" required>
             <label class="checkbox" for="condiciones">Acepto las condiciones*</label>
           </div>
           
           <div>
-            <input type="checkbox" id="novedades" name="novedades">
+            <input class="checkbox" type="checkbox" id="novedades" name="novedades">
             <label class="checkbox" for="novedades">Deseo recibir novedades</label>
           </div>
 
-          <p class="checkbox">*: campo obligatorio.</p>
+          <p id="campo">*: campo obligatorio.</p>
   
-        <button  type="submit">Iniciar afiliación</button>
-        <button type="reset">Restablecer</button>
+        <button class="boton"  type="submit">Iniciar afiliación</button>
+        <button class="boton" type="reset">Restablecer</button>
     </form>
 
     <script type="module" src="/main.js"></script>
