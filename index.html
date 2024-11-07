@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Afiliación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <h1>Vení al gym! 💪🏽</h1>
+    <h1 class="titulo bordes">Vení al gym! 💪🏽</h1>
+
 
     <form action="https://postman-echo.com/post" method="post" target="_blank" >
 
         <fieldset>
-          <legend>🙋🏼‍♂️Datos Personales 👀</legend>
-  
+          <legend class="datos">🙋🏼‍♂️Datos Personales 👀</legend>
+
+        <div class="legend">
           <div>
             <label for="nombre">Nombre:*</label>
-            <input name="nombre" id="nombre" type="text" required maxlength="10" minlength="5">
+            <input class="cuadradito" name="nombre" id="nombre" type="text" required maxlength="10" minlength="5">
           </div>
     
           <div>
             <label for="apellido">Apellido:*</label>
-            <input name="apellido" id="apellido" type="text" required>
+            <input class="cuadradito" name="apellido" id="apellido" type="text" required>
           </div>
   
           <div>
             <label for="documento">Documento:*</label>
-            <input name="documento" id="documento" type="number" min="8" required>
+            <input class="cuadradito" name="documento" id="documento" type="number" min="8" required>
           </div>
   
           <div>
             <label for="nacionalidad">Nacionalidad:* </label>
-         <select name="nacionalidad" id="nacionalidad" required>
+         <select class="cuadradito" name="nacionalidad" id="nacionalidad" required>
             <option value="">-Seleccionar-</option>
             <option value="Argentina">Argentina</option>
             <option value="Venezolana">Venezolana</option>
@@ -42,12 +46,12 @@
 
           <div>
             <label for="desc">Contanos un poco de vos...</label>
-          <textarea name="descrip" id="desc" cols="18" rows="2"></textarea>
+          <textarea class="cuadradito desc" name="descrip" id="desc" cols="18" rows="2"></textarea>
           </div>
 
           <div>
             <label>Sexo:*</label>
-            <div>
+            <div class="cuadradito sexo">
                 <input type="radio" id="femenino" name="sexo" value="femenino" required>
                 <label for="femenino">Femenino</label>
   
@@ -58,27 +62,34 @@
                 <label for="otro">Otro</label>
             </div>
           </div>
+        </div>
   
         </fieldset>
+
+        <div class="separ"></div>
   
   
         <fieldset>
-          <legend>📱 Datos de contacto 📧</legend>
-  
+          <legend class="datos">📱 Datos de contacto 📧</legend>
+
+      <div class="legend">
           <div>
             <label for="telefono">Teléfono:*</label>
-            <input name="telefono" id="telefono" type="number" required placeholder="Código de área y número">
+            <input class="tel" name="telefono" id="telefono" type="number" required placeholder="Código de área y número">
           </div>
     
           <div>
             <label for="correo">Dirección de correo electrónico:*</label>
-            <input name="correo" id="correo" type="email" required placeholder="Ej: mail@gmail.com">
+            <input class="mail" name="correo" id="correo" type="email" required placeholder="Ej: mail@gmail.com">
           </div>
+        </div>
     
         </fieldset>
 
+        <div class="separ"></div>
+
         <fieldset>
-            <legend>🚴🏼‍♂️ Actividades 🤸🏼‍♀️</legend>
+            <legend class="datos">🚴🏼‍♂️ Actividades 🤸🏼‍♀️</legend>
 
             <p>Por favor, indicá cuáles actividades te interesan.</p>
 
@@ -117,19 +128,20 @@
 
           <div>
             <input type="checkbox" id="condiciones" name="condiciones" required>
-            <label for="condiciones">Acepto las condiciones*</label>
+            <label class="checkbox" for="condiciones">Acepto las condiciones*</label>
           </div>
           
           <div>
             <input type="checkbox" id="novedades" name="novedades">
-            <label for="novedades">Deseo recibir novedades</label>
+            <label class="checkbox" for="novedades">Deseo recibir novedades</label>
           </div>
 
-          <p>*: campo obligatorio.</p>
+          <p class="checkbox">*: campo obligatorio.</p>
   
-        <button type="submit">Iniciar afiliación</button>
+        <button  type="submit">Iniciar afiliación</button>
         <button type="reset">Restablecer</button>
     </form>
-    
+
+    <script type="module" src="/main.js"></script>
 </body>
 </html>

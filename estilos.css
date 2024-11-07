@@ -1,0 +1,121 @@
+
+body {
+    width: 70%;
+    max-width:600px;
+    text-align: center;
+    margin: auto;
+    font-family: "roboto", sans-serif;
+    background-color: #1f2023;
+}
+.titulo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 1000px;
+}
+.bordes {
+    padding: 5px;
+    border: 15px solid #4d6d63;
+    border-left-color: #1f2023;
+    border-right-color: #1f2023;
+    background-color: #1f2023;
+    color: white;
+    width: 98%;
+    max-width: 98%;
+}
+
+
+.contenedor {
+    background-color: #d6e2de;
+    padding: 30px;
+}
+
+.datos {
+    background-color: #4d6d63;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 700px;
+    border: 1,600px;
+    background-color: #d6e2de;
+    font-family:'Poppins', sans-serif
+}
+
+.legend {
+   display: inline-block;
+   margin-left: 30%;
+   margin-right: 30%;
+   text-align: center;
+}
+
+.cuadradito {
+    max-width:400%;
+    min-width: 195%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: -100px;
+    border: 1px solid #83b6a6;
+    border-radius: 3px;
+    display: block;
+}
+
+.tel {
+    max-width:400%;
+    min-width: 180%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: -90px;
+    border: 1px solid #83b6a6;
+    border-radius: 3px;
+    display: block;
+}
+
+.mail {
+    max-width: 400%;
+    min-width: 180%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: -90px;
+    border: 1px solid #83b6a6;
+    border-radius: 3px;
+    display: block;
+}
+
+.desc {
+    height: 100px;
+}
+
+.sexo
+
+input:focus{  
+    background-color: #4d6d63;
+   }
+   fieldset:focus-within {
+    background-color: #A6C1B9;
+  }
+
+  .separ {
+    border-bottom: dotted 15px #d6e2de;
+    width: 300px;
+    margin:auto;
+    margin-bottom: 15px;
+    padding:10px
+  }
+  
+  fieldset:focus-within > legend {
+    background-color: #2B3D37;
+    border-color: #2B3D37;
+  }
+
+.checkbox {
+    color: white;
+  }
