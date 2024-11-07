@@ -43,3 +43,32 @@ rows=""
 Se estructura al archivo de manera que cumpla con lo establecido en las bases para antes de usar el CSS, con cada etiqueta y atributo posicionados de manera que su uso funcione correctamente al momento de enviar la información con sus respectivos botones de "enviar" y "reset".
 
 ## Estilos CSS
+
+Para el estilos.CSS, los elementos principales utilizados son:
+
+```sh
+width: 
+max-width:
+text-align:
+margin:
+background-color:
+font-family:
+font-weight:
+padding:
+border:
+color:
+border-radius:
+display:
+height:
+```
+
+Y otros más usados en menor cantidad o una sola vez. 
+
+## Errores
+
+Algunos errores fueron en consecuencia de agregar alguna función o elemento de más, asi como quitando alguna otra por accidente.
+Los errores más comúnes a lo largo del desafío fueron los usos incorrectos de "px" y "%" al momento de colocar los width o los margin. 
+
+## Datos del alumno
+
+
