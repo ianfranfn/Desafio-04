@@ -1,0 +1,238 @@
+body {
+    width: 90%;
+    max-width:900px;
+    text-align: center;
+    margin: auto;
+    font-family: "roboto", sans-serif;
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+}
+.titulo {
+    text-align: center;
+    font-family: "Knewave", sans-serif;
+    height: 95px;
+    color: #000000;
+    font-size: 50px;
+}
+.bordes {
+    padding: 5px;
+    border: 5px solid #000000;
+    background-color: #9896a7;
+    border-bottom: none;
+    border-radius: 8px;
+    width: fit-content;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: -19px;
+    margin-top: 30px;
+}
+
+.contenedor {
+    background-color: #d6e2de;
+    padding: 30px;
+}
+
+.datos {
+    background-color: #252a28c2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+fieldset {
+    width: 99%;
+    max-width: 900px;
+    border: 5px inset black;
+    background-color: #c3bee3;
+    border-radius: 12px;
+    font-family:'Poppins', sans-serif
+}
+
+.legend {
+   display: inline-block;
+   margin-right: 30%;
+   text-align: left;
+   width: 60%;
+}
+
+#name-box {
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(to top, #52d88a 0%, #00e3ae 100%);
+}
+
+#apellido-box{
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(to right, #7aa8ce  0%, #4f7da1 100%);
+}
+
+#docu-box {
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+#nacionalidad-box {
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(to top, #c528e4 0%, #de60fd 100%);
+}
+
+#desc-box {
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(to top, #73dee8 0%, #12fff7 100%);
+}
+
+#sex-box {
+    background-image: linear-gradient(-225deg, #beb2ff 0%, #9c76c4 29%, #fc91b4 67%, #fdf97c 100%);
+}
+
+#sex-font {
+    font-family: 'Zen Dots';
+}
+
+#tel-box {
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+#correo-box {
+    font-family: 'Zen Dots';
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+
+#sede-P {
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+}
+
+#sede-R {
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+}
+
+.sede {
+    font-family: 'Zen Dots';
+}
+
+.box {
+    border: 2px dashed black;
+    padding: 5px;
+    margin: 2px;
+    padding-right: 250px;
+}
+
+.contra-box {
+    border: 2px dashed black;
+    padding: 5px;
+    margin-left: 60%;
+    padding-right: 250px;
+    min-width: 250px;
+}
+
+.cuadradito {
+    max-width:400%;
+    min-width:70%;
+    height:20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    display: block;
+}
+
+.contacto {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.act {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.tel {
+    max-width:400%;
+    min-width: 165%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    display: block;
+    text-align: end;
+}
+
+.mail {
+    max-width: 300%;
+    min-width: 170%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    border: 1px solid #83b6a6;
+    border-radius: 3px;
+    display: block;
+    text-align: end;
+}
+
+.desc {
+    height: 100px;
+}
+
+.sexo {
+    border: none;
+    max-width: 400px;
+    width: 400px;
+    margin-left: 80%;
+}
+
+.actividades {
+    text-align: left;
+}
+
+#p1 {
+    font-size: small;
+}
+
+input:focus{  
+    background-color: #babcbb;
+   }
+   fieldset:focus-within {
+    background-color: #c4dfd7;
+  }
+
+  fieldset:focus-within > legend {
+    background-color: #202221;
+    border-color: #202221;
+  }
+
+.checkbox {
+    color: white;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.condiciones {
+    margin-top: 30px;
+}
+
+.block {
+    display: block;
+}
+
+#campo {
+    color: white;
+    text-align: start;
+    font-weight: bold;
+    font-size: small;
+}
+
+.boton {
+    width: 50%;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #c3bee3;
+    color: #2c2828;
+    border: 1px solid #727977;
+    border-radius: 3px;
+}

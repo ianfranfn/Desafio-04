@@ -5,6 +5,10 @@
     <title>Afiliación</title>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Cherry+Bomb+One&family=Knewave&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Cherry+Bomb+One&family=Knewave&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Dots&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
 
@@ -12,28 +16,27 @@
 
 
     <form action="https://postman-echo.com/post" method="post" target="_blank" >
-    <form action="https://postman-echo.com/post" method="post" target="_blank" >
 
         <fieldset>
           <legend class="datos">🙋🏼‍♂️Datos Personales 👀</legend>
 
         <div class="legend">
-          <div>
+          <div id="name-box" class="box">
             <label for="nombre">Nombre:*</label>
             <input class="cuadradito" name="nombre" id="nombre" type="text" required maxlength="10" minlength="5">
           </div>
     
-          <div>
+          <div id="apellido-box" class="contra-box">
             <label for="apellido">Apellido:*</label>
             <input class="cuadradito" name="apellido" id="apellido" type="text" required>
           </div>
   
-          <div>
+          <div id="docu-box" class="box">
             <label for="documento">Documento:*</label>
             <input class="cuadradito" name="documento" id="documento" type="number" min="8" required>
           </div>
   
-          <div>
+          <div id="nacionalidad-box" class="contra-box">
             <label for="nacionalidad">Nacionalidad:* </label>
          <select class="cuadradito" name="nacionalidad" id="nacionalidad" required>
             <option value="">-Seleccionar-</option>
@@ -45,13 +48,13 @@
         </select>
           </div>
 
-          <div>
+          <div id="desc-box" class="box">
             <label for="desc">Contanos un poco de vos...</label>
           <textarea class="cuadradito desc" name="descrip" id="desc" cols="18" rows="2"></textarea>
           </div>
 
-          <div>
-            <label>Sexo:*</label>
+          <div id="sex-box" class="contra-box">
+            <label id="sex-font">Sexo:*</label>
             <div class="cuadradito sexo">
                 <input type="radio" id="femenino" name="sexo" value="femenino" required>
                 <label for="femenino">Femenino</label>
@@ -70,16 +73,16 @@
         <div class="separ"></div>
   
   
-        <fieldset>
-          <legend class="datos">📱 Datos de contacto 📧</legend>
+        <fieldset class="contacto">
+          <legend class="datos contacto">📱 Datos de contacto 📧</legend>
 
       <div class="legend">
-          <div>
+          <div id="tel-box" class="box">
             <label for="telefono">Teléfono:*</label>
             <input class="tel" name="telefono" id="telefono" type="number" required placeholder="Código de área y número">
           </div>
     
-          <div>
+          <div id="correo-box" class="contra-box">
             <label for="correo">Dirección de correo electrónico:*</label>
             <input class="mail" name="correo" id="correo" type="email" required placeholder="Ej: mail@gmail.com">
           </div>
@@ -89,14 +92,14 @@
 
         <div class="separ"></div>
 
-        <fieldset class="actividades">
-            <legend class="datos">🚴🏼‍♂️ Actividades 🤸🏼‍♀️</legend>
+        <fieldset class="act actividades">
+            <legend class="act datos">🚴🏼‍♂️ Actividades 🤸🏼‍♀️</legend>
 
             <p id="p1">Por favor, indicá cuáles actividades te interesan.</p>
 
-            <p>Sede Palermo:</p>
+            <p class="sede">Sede Palermo:</p>
 
-            <div>
+            <div id="sede-P"  class="box">
                 <input type="checkbox" id="basquet" name="actividad" value="basquet">
                 <label for="basquet">Básquet</label>
                     
@@ -110,9 +113,9 @@
                 <label for="tenis">Tenis</label>
             </div>
 
-            <p>Sede Rosario:</p>
+            <p class="sede">Sede Rosario:</p>
 
-            <div>
+            <div id="sede-R"  class="box">
               <input type="checkbox" id="basquet2" name="actividad" value="basquet">
               <label for="basquet2">Básquet</label>
               
@@ -127,12 +130,12 @@
             </div>
           </fieldset>
 
-          <div>
+          <div class="block">
             <input class="checkbox condiciones" type="checkbox" id="condiciones" name="condiciones" required>
             <label class="checkbox" for="condiciones">Acepto las condiciones*</label>
           </div>
           
-          <div>
+          <div class="block">
             <input class="checkbox" type="checkbox" id="novedades" name="novedades">
             <label class="checkbox" for="novedades">Deseo recibir novedades</label>
           </div>

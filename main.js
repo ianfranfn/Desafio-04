@@ -1,1 +1,2 @@
-import './estilos.css'
+/* import './estilos.css' */
+import './futurista.css'
