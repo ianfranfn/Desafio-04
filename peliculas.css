@@ -1,0 +1,311 @@
+body {
+    width: 90%;
+    max-width:900px;
+    text-align: center;
+    margin: auto;
+    font-family: "roboto", sans-serif;
+    background-color: #201f1f;
+    background-image: url('public/imgs/cinta-peli-css.webp');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Diplomata", sans-serif;
+    height: 60px;
+    color: #000000;
+    font-size: 40px;
+}
+
+.bordes {
+    padding: 5px;
+    border: 5px solid #7070705b;
+    background-color: #cdcbd7;
+    border-radius: 20px;
+    width: fit-content;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contenedor {
+    background-color: #d6e2de;
+    padding: 30px;
+}
+
+.datos {
+    background-color: #747474c2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+fieldset {
+    width: 99%;
+    max-width: 900px;
+    border: 5px inset black;
+    border-radius: 12px;
+    font-family:'Poppins', sans-serif;
+}
+
+.fieldset1 {
+    background-image: url('public/imgs/fondo-css.webp'); 
+    background-size: 107%;
+    background-repeat: no-repeat;
+}
+
+.legend {
+   display: inline-block;
+   margin-right: 30%;
+   text-align: left;
+   max-width: 60%;
+}
+
+#name-box {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #84080c;
+    margin-left: -5%;
+    border: 2px dashed #c9c6c6;
+}
+
+#apellido-box{
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #8f2220;
+    padding: 5px;
+    margin: 5px;
+    padding-right: 250px;
+    border: 2px dashed #c9c6c6;
+}
+
+#docu-box {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #871816;
+    margin: 5px;
+    margin-left: 9%;
+    border: 2px dashed #c9c6c6;
+}
+
+#nacionalidad-box {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #963028;
+    border: 2px dashed #c9c6c6;
+    padding: 5px;
+    margin: 5px;
+    padding-right: 250px;
+    margin-left: 18%;;
+}
+
+#desc-box {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #911e1c;
+    border: 2px dashed #c9c6c6;
+    margin: 5px;
+    margin-left: 29%;
+    padding-right: 100px;
+}
+
+#sex-box {
+    background-color: #a53634;
+    border: 2px dashed #dbd4d4;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 40%;
+    padding-right: 300px;
+}
+
+#sex-font {
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+#tel-box {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #c4aa86;
+}
+
+#correo-box {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #c4aa86;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 20%;
+    padding-right: 200px;
+    border: 2px dashed black;
+}
+
+#sede-P {
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+}
+
+#sede-R {
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+}
+
+.sede {
+    font-family: 'Oswald';
+    font-size: 20px;
+    background: linear-gradient(to bottom, #f6f6f6 0%, #ffffff 50%, #f8f8f8 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+    background-blend-mode: normal, color-burn;
+    width: 17%;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.box {
+    border: 2px dashed black;
+    padding: 5px;
+    margin: 2px;
+    padding-right: 250px;
+}
+
+
+.cuadradito {
+    max-width:400%;
+    min-width:70%;
+    height:20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    display: block;
+}
+
+.contacto {
+    margin: auto;
+    margin-top: 15px;
+    background-image: url('public/imgs/pochoclo-css.webp');
+}
+
+.act {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.tel {
+    max-width:400%;
+    min-width: 165%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    display: block;
+    text-align: end;
+}
+
+.mail {
+    max-width: 170%;
+    min-width: 160%;
+    height:20px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: block;
+    text-align: end;
+}
+
+.desc {
+    height: 100px;
+    max-width: 50%;
+    margin-left: 170px;
+    margin-bottom: 2px;
+}
+
+.sexo {
+    border: none;
+    max-width: 400px;
+    width: 400px;
+    margin-left: 80%;
+}
+
+.actividades {
+    text-align: left;
+    background-image: url('public/imgs/cinta-larga-css.webp');
+    background-size: 100%;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-color: #969393;
+}
+
+#p1 {
+    font-size: small;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+    background-blend-mode: normal, color-burn;
+    width: 37%;
+    min-width: 37%;
+    border-radius:5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin: auto;
+}
+
+input:focus{  
+    background-color: #babcbb;
+   }
+   fieldset:focus-within {
+    background-color: #c4dfd7;
+  }
+
+  fieldset:focus-within > legend {
+    background-color: #202221;
+    border-color: #202221;
+  }
+
+.checkbox {
+    color: white;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.condiciones {
+    margin-top: 30px;
+}
+
+.block {
+    display: block;
+}
+
+#campo {
+    color: white;
+    text-align: start;
+    font-weight: bold;
+    font-size: small;
+}
+
+.boton1 {
+    width: 50%;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #c4aa86;
+    color: #2c2828;
+    border: 1px solid #727977;
+    border-radius: 3px;
+}
+.boton2 {
+    width: 50%;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #a53634;
+    color: #2c2828;
+    border: 1px solid #727977;
+    border-radius: 3px;
+}
+
